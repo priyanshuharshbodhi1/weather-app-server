@@ -58,3 +58,426 @@ INFO [2024-01-01T11:51:52.987Z]: Fully initialized!
 INFO [2024-01-01T11:51:52.993Z]: extension_initialized
 INFO [2024-01-01T11:51:52.993Z]: {"timeToInit":3513}
 INFO [2024-01-01T11:51:53.032Z]: Reading ALL files
+INFO [2024-01-01T12:00:49.822Z]: Preparing to initialize extension
+INFO [2024-01-01T12:00:50.826Z]: Registering flag observer
+INFO [2024-01-01T12:00:50.827Z]: Navigating to loading page
+INFO [2024-01-01T12:00:50.827Z]: Navigation
+INFO [2024-01-01T12:00:50.827Z]: {"page":"/loading"}
+INFO [2024-01-01T12:00:50.828Z]: Initializing workspace controller
+INFO [2024-01-01T12:00:50.831Z]: Creating URI handler
+INFO [2024-01-01T12:00:50.832Z]: Getting auth service props
+INFO [2024-01-01T12:00:50.833Z]: Creating auth service
+INFO [2024-01-01T12:00:50.833Z]: Setting network auth service
+INFO [2024-01-01T12:00:50.834Z]: Creating context store
+INFO [2024-01-01T12:00:50.834Z]: Creating engine
+INFO [2024-01-01T12:00:50.834Z]: Creating sql db
+INFO [2024-01-01T12:00:51.008Z]: Creating vector db
+INFO [2024-01-01T12:00:51.009Z]: Creating config manager
+INFO [2024-01-01T12:00:51.014Z]: Get languages
+INFO [2024-01-01T12:00:51.015Z]: Reading ALL files
+INFO [2024-01-01T12:00:51.168Z]: Files: 4
+INFO [2024-01-01T12:00:51.168Z]: Counting languages
+INFO [2024-01-01T12:00:51.169Z]: Sorting languages
+INFO [2024-01-01T12:00:51.171Z]: Get Overview
+INFO [2024-01-01T12:00:51.173Z]: Creating code parser
+INFO [2024-01-01T12:00:51.174Z]: Creating code index
+INFO [2024-01-01T12:00:51.175Z]: Creating graphs
+INFO [2024-01-01T12:00:51.176Z]: Creating tagger
+INFO [2024-01-01T12:00:51.176Z]: Creating semantic
+INFO [2024-01-01T12:00:51.176Z]: Creating keyword
+INFO [2024-01-01T12:00:51.176Z]: Creating file search
+INFO [2024-01-01T12:00:51.177Z]: Initializing engine
+INFO [2024-01-01T12:00:51.312Z]: [CodeTagger.init] Initializing
+INFO [2024-01-01T12:00:51.316Z]: Initializing history service
+INFO [2024-01-01T12:00:51.316Z]: Creating project bot props
+INFO [2024-01-01T12:00:51.316Z]: Creating plan service
+INFO [2024-01-01T12:00:51.316Z]: Creating terms service
+INFO [2024-01-01T12:00:51.316Z]: Creating auth controller
+INFO [2024-01-01T12:00:51.316Z]: Initializing auth controller
+INFO [2024-01-01T12:00:51.318Z]: Checking auth
+INFO [2024-01-01T12:00:53.822Z]: Set User: lFKxFCOOWmSxo1pG6GIRjgGM9HK2
+INFO [2024-01-01T12:00:53.857Z]: Creating plan controller
+INFO [2024-01-01T12:00:53.858Z]: Initializing plan controller
+INFO [2024-01-01T12:00:54.672Z]: Creating status controller
+INFO [2024-01-01T12:00:54.674Z]: Creating chat bot
+INFO [2024-01-01T12:00:54.678Z]: Creating git service
+INFO [2024-01-01T12:00:54.679Z]: Creating user context
+INFO [2024-01-01T12:00:54.679Z]: Creating search controller
+INFO [2024-01-01T12:00:54.681Z]: Initializing search controller
+INFO [2024-01-01T12:00:54.694Z]: Creating index controller
+INFO [2024-01-01T12:00:54.695Z]: Initializing index controller
+INFO [2024-01-01T12:00:54.695Z]: Creating migrate controller
+INFO [2024-01-01T12:00:54.695Z]: Initializing migrate controller
+INFO [2024-01-01T12:00:54.696Z]: Creating settings controller
+INFO [2024-01-01T12:00:54.697Z]: Initializing settings controller
+INFO [2024-01-01T12:00:54.698Z]: Creating navigation controller
+INFO [2024-01-01T12:00:54.698Z]: Initializing navigation controller
+INFO [2024-01-01T12:00:54.699Z]: Registering auth service with auth controller
+INFO [2024-01-01T12:00:54.699Z]: Calculating navigation
+INFO [2024-01-01T12:00:54.812Z]: Navigation
+INFO [2024-01-01T12:00:54.813Z]: {"page":"/initialize/project"}
+INFO [2024-01-01T12:00:54.814Z]: Fully initialized!
+INFO [2024-01-01T12:00:54.822Z]: extension_initialized
+INFO [2024-01-01T12:00:54.822Z]: {"timeToInit":4993}
+INFO [2024-01-01T12:00:54.962Z]: Reading ALL files
+INFO [2024-01-01T12:00:55.047Z]: Files: 4
+INFO [2024-01-01T12:00:55.048Z]: Counting languages
+INFO [2024-01-01T12:00:55.048Z]: Sorting languages
+INFO [2024-01-01T12:00:59.336Z]: project_languages
+INFO [2024-01-01T12:00:59.336Z]: {"languages":["JavaScript","JSON"]}
+INFO [2024-01-01T12:00:59.376Z]: Navigation
+INFO [2024-01-01T12:00:59.376Z]: {"page":"/initialize/ignore"}
+INFO [2024-01-01T12:00:59.406Z]: Reading ALL files
+INFO [2024-01-01T12:00:59.499Z]: Files: 5
+INFO [2024-01-01T12:00:59.500Z]: Counting languages
+INFO [2024-01-01T12:00:59.501Z]: Sorting languages
+INFO [2024-01-01T12:01:01.092Z]: Navigation
+INFO [2024-01-01T12:01:01.092Z]: {"page":"/initialize/progress"}
+INFO [2024-01-01T12:01:01.285Z]: Found 2 files
+INFO [2024-01-01T12:01:01.303Z]: project_initialize_start
+INFO [2024-01-01T12:01:01.303Z]: {"name":"weather-app-server","languages":["Markdown","JSON","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-01T12:01:02.332Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:02.333Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:02.333Z]: {"added":7,"deleted":0}
+INFO [2024-01-01T12:01:03.096Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:03.097Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-01T12:01:03.097Z]: {"language":"JavaScript"}
+INFO [2024-01-01T12:01:03.557Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-01T12:01:03.558Z]: {"language":"JavaScript","percent":100,"file":"server.js"}
+INFO [2024-01-01T12:01:03.613Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-01T12:01:03.613Z]: {"language":"JavaScript","percent":100,"file":"server.js"}
+INFO [2024-01-01T12:01:03.615Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-01T12:01:03.615Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-01T12:01:03.617Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-01T12:01:03.617Z]: {"language":"JavaScript"}
+INFO [2024-01-01T12:01:03.617Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:05.269Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:05.269Z]: {"length":7}
+INFO [2024-01-01T12:01:05.270Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:05.270Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:05.270Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:05.275Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:05.276Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:05.276Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-01T12:01:05.276Z]: {"language":"JavaScript"}
+INFO [2024-01-01T12:01:05.291Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:05.293Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:05.294Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:05.294Z]: {"added":7,"deleted":0}
+INFO [2024-01-01T12:01:05.294Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:05.294Z]: {"embeddingsToDelete":0}
+INFO [2024-01-01T12:01:05.295Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:05.295Z]: {"write":7}
+INFO [2024-01-01T12:01:05.462Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:05.462Z]: {"resuts":7,"delete":0}
+INFO [2024-01-01T12:01:05.463Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:05.463Z]: {"files":{"added":2,"changed":0,"deleted":0}}
+INFO [2024-01-01T12:01:05.753Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:05.769Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:05.777Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:06.563Z]: External Memory: 177.19MB
+ERROR [2024-01-01T12:01:06.593Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:06.595Z]: project_initialize_failure
+INFO [2024-01-01T12:01:06.595Z]: {"name":"weather-app-server","languages":["Markdown","JSON","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-01T12:01:10.011Z]: project_initialize_start
+INFO [2024-01-01T12:01:10.011Z]: {}
+INFO [2024-01-01T12:01:10.246Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:10.246Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:10.246Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:10.246Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:10.247Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:10.247Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:10.247Z]: {"length":0}
+INFO [2024-01-01T12:01:10.247Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:10.247Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:10.247Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:10.248Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:10.248Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:10.248Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:10.269Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:10.270Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:10.270Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:10.270Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:10.270Z]: {"embeddingsToDelete":0}
+INFO [2024-01-01T12:01:10.271Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:10.271Z]: {"write":0}
+INFO [2024-01-01T12:01:10.392Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:10.392Z]: {"resuts":0,"delete":0}
+INFO [2024-01-01T12:01:10.392Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:10.392Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2024-01-01T12:01:10.408Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:10.496Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:10.517Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:10.950Z]: External Memory: 177.37MB
+ERROR [2024-01-01T12:01:10.959Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:10.960Z]: project_initialize_failure
+INFO [2024-01-01T12:01:10.960Z]: {}
+INFO [2024-01-01T12:01:11.744Z]: project_initialize_start
+INFO [2024-01-01T12:01:11.744Z]: {}
+INFO [2024-01-01T12:01:12.060Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:12.061Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:12.061Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:12.061Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:12.062Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:12.062Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:12.062Z]: {"length":0}
+INFO [2024-01-01T12:01:12.063Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:12.063Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:12.063Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:12.063Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:12.064Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:12.064Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:12.087Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:12.088Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:12.088Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:12.088Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:12.088Z]: {"embeddingsToDelete":0}
+INFO [2024-01-01T12:01:12.089Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:12.089Z]: {"write":0}
+INFO [2024-01-01T12:01:12.673Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:12.673Z]: {"resuts":0,"delete":0}
+INFO [2024-01-01T12:01:12.673Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:12.673Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2024-01-01T12:01:12.689Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:12.706Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:12.716Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:13.038Z]: External Memory: 177.43MB
+ERROR [2024-01-01T12:01:13.054Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:13.056Z]: project_initialize_failure
+INFO [2024-01-01T12:01:13.056Z]: {}
+INFO [2024-01-01T12:01:14.090Z]: Reading ALL files
+INFO [2024-01-01T12:01:14.185Z]: Files: 4
+INFO [2024-01-01T12:01:14.186Z]: Counting languages
+INFO [2024-01-01T12:01:14.186Z]: Sorting languages
+INFO [2024-01-01T12:01:16.374Z]: Reading ALL files
+INFO [2024-01-01T12:01:16.447Z]: Files: 4
+INFO [2024-01-01T12:01:16.448Z]: Counting languages
+INFO [2024-01-01T12:01:16.448Z]: Sorting languages
+INFO [2024-01-01T12:01:21.166Z]: project_languages
+INFO [2024-01-01T12:01:21.167Z]: {"languages":["JavaScript"]}
+INFO [2024-01-01T12:01:21.190Z]: Navigation
+INFO [2024-01-01T12:01:21.190Z]: {"page":"/initialize/ignore"}
+INFO [2024-01-01T12:01:21.214Z]: Reading ALL files
+INFO [2024-01-01T12:01:21.281Z]: Files: 4
+INFO [2024-01-01T12:01:21.282Z]: Counting languages
+INFO [2024-01-01T12:01:21.283Z]: Sorting languages
+INFO [2024-01-01T12:01:22.742Z]: Navigation
+INFO [2024-01-01T12:01:22.742Z]: {"page":"/initialize/progress"}
+INFO [2024-01-01T12:01:22.830Z]: Found 1 files
+INFO [2024-01-01T12:01:22.838Z]: project_initialize_start
+INFO [2024-01-01T12:01:22.838Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-01T12:01:23.096Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:23.097Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:23.097Z]: {"added":0,"deleted":3}
+INFO [2024-01-01T12:01:23.097Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:23.097Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:23.098Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:23.098Z]: {"length":0}
+INFO [2024-01-01T12:01:23.098Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:23.098Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:23.098Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:23.100Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:23.100Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:23.100Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:23.117Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:23.118Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:23.118Z]: {"added":0,"deleted":3}
+INFO [2024-01-01T12:01:23.119Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:23.119Z]: {"embeddingsToDelete":3}
+INFO [2024-01-01T12:01:23.119Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:23.119Z]: {"write":0}
+INFO [2024-01-01T12:01:23.270Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:23.270Z]: {"resuts":0,"delete":3}
+INFO [2024-01-01T12:01:23.270Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:23.270Z]: {"files":{"added":0,"changed":0,"deleted":1}}
+INFO [2024-01-01T12:01:23.481Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:23.541Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:23.544Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:23.782Z]: External Memory: 177.58MB
+ERROR [2024-01-01T12:01:23.788Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:23.791Z]: project_initialize_failure
+INFO [2024-01-01T12:01:23.791Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-01T12:01:25.705Z]: project_initialize_start
+INFO [2024-01-01T12:01:25.705Z]: {}
+INFO [2024-01-01T12:01:25.950Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:25.951Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:25.951Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:25.951Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:25.952Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:25.952Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:25.952Z]: {"length":0}
+INFO [2024-01-01T12:01:25.953Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:25.953Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:25.953Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:25.953Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:25.953Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:25.953Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:25.980Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:25.982Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:25.982Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:25.982Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:25.982Z]: {"embeddingsToDelete":0}
+INFO [2024-01-01T12:01:25.982Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:25.982Z]: {"write":0}
+INFO [2024-01-01T12:01:26.526Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:26.526Z]: {"resuts":0,"delete":0}
+INFO [2024-01-01T12:01:26.526Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:26.526Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2024-01-01T12:01:26.539Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:26.564Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:26.568Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:26.967Z]: External Memory: 177.62MB
+ERROR [2024-01-01T12:01:26.978Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:26.980Z]: project_initialize_failure
+INFO [2024-01-01T12:01:26.980Z]: {}
+INFO [2024-01-01T12:01:29.510Z]: project_initialize_start
+INFO [2024-01-01T12:01:29.510Z]: {}
+INFO [2024-01-01T12:01:29.753Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-01T12:01:29.754Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-01T12:01:29.754Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:29.754Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-01T12:01:29.755Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-01T12:01:29.755Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-01T12:01:29.755Z]: {"length":0}
+INFO [2024-01-01T12:01:29.755Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-01T12:01:29.755Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-01T12:01:29.755Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-01T12:01:29.756Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-01T12:01:29.756Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-01T12:01:29.756Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-01T12:01:29.779Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-01T12:01:29.780Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-01T12:01:29.780Z]: {"added":0,"deleted":0}
+INFO [2024-01-01T12:01:29.780Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-01T12:01:29.780Z]: {"embeddingsToDelete":0}
+INFO [2024-01-01T12:01:29.780Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-01T12:01:29.780Z]: {"write":0}
+INFO [2024-01-01T12:01:29.887Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-01T12:01:29.887Z]: {"resuts":0,"delete":0}
+INFO [2024-01-01T12:01:29.887Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-01T12:01:29.887Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2024-01-01T12:01:29.907Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-01T12:01:30.185Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-01T12:01:30.229Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-01T12:01:30.464Z]: External Memory: 177.69MB
+ERROR [2024-01-01T12:01:30.477Z]: K should be a positive integer smaller than the number of points
+INFO [2024-01-01T12:01:30.478Z]: project_initialize_failure
+INFO [2024-01-01T12:01:30.478Z]: {}
+INFO [2024-01-01T12:01:51.242Z]: Preparing to initialize extension
+INFO [2024-01-01T12:01:52.247Z]: Registering flag observer
+INFO [2024-01-01T12:01:52.249Z]: Navigating to loading page
+INFO [2024-01-01T12:01:52.249Z]: Navigation
+INFO [2024-01-01T12:01:52.249Z]: {"page":"/loading"}
+INFO [2024-01-01T12:01:52.249Z]: Initializing workspace controller
+INFO [2024-01-01T12:01:52.278Z]: Creating URI handler
+INFO [2024-01-01T12:01:52.279Z]: Getting auth service props
+INFO [2024-01-01T12:01:52.281Z]: Creating auth service
+INFO [2024-01-01T12:01:52.282Z]: Setting network auth service
+INFO [2024-01-01T12:01:52.282Z]: Creating context store
+INFO [2024-01-01T12:01:52.282Z]: Creating engine
+INFO [2024-01-01T12:01:52.282Z]: Creating sql db
+INFO [2024-01-01T12:01:52.660Z]: Creating vector db
+INFO [2024-01-01T12:01:52.662Z]: Creating config manager
+INFO [2024-01-01T12:01:52.892Z]: Get languages
+INFO [2024-01-01T12:01:52.893Z]: Reading ALL files
+INFO [2024-01-01T12:01:52.992Z]: Files: 4
+INFO [2024-01-01T12:01:52.993Z]: Counting languages
+INFO [2024-01-01T12:01:52.994Z]: Sorting languages
+INFO [2024-01-01T12:01:52.994Z]: Get Overview
+INFO [2024-01-01T12:01:52.995Z]: Creating code parser
+INFO [2024-01-01T12:01:52.995Z]: Creating code index
+INFO [2024-01-01T12:01:52.997Z]: Creating graphs
+INFO [2024-01-01T12:01:52.998Z]: Creating tagger
+INFO [2024-01-01T12:01:52.998Z]: Creating semantic
+INFO [2024-01-01T12:01:52.998Z]: Creating keyword
+INFO [2024-01-01T12:01:52.999Z]: Creating file search
+INFO [2024-01-01T12:01:52.999Z]: Initializing engine
+INFO [2024-01-01T12:01:53.469Z]: [CodeTagger.init] Initializing
+INFO [2024-01-01T12:01:53.476Z]: Initializing history service
+INFO [2024-01-01T12:01:53.476Z]: Creating project bot props
+INFO [2024-01-01T12:01:53.476Z]: Creating plan service
+INFO [2024-01-01T12:01:53.476Z]: Creating terms service
+INFO [2024-01-01T12:01:53.476Z]: Creating auth controller
+INFO [2024-01-01T12:01:53.476Z]: Initializing auth controller
+INFO [2024-01-01T12:01:53.478Z]: Checking auth
+INFO [2024-01-01T12:01:54.540Z]: Set User: lFKxFCOOWmSxo1pG6GIRjgGM9HK2
+INFO [2024-01-01T12:01:54.581Z]: Creating plan controller
+INFO [2024-01-01T12:01:54.582Z]: Initializing plan controller
+INFO [2024-01-01T12:01:55.257Z]: Creating status controller
+INFO [2024-01-01T12:01:55.258Z]: Creating chat bot
+INFO [2024-01-01T12:01:55.261Z]: Creating git service
+INFO [2024-01-01T12:01:55.262Z]: Creating user context
+INFO [2024-01-01T12:01:55.262Z]: Creating search controller
+INFO [2024-01-01T12:01:55.263Z]: Initializing search controller
+INFO [2024-01-01T12:01:55.272Z]: Creating index controller
+INFO [2024-01-01T12:01:55.273Z]: Initializing index controller
+INFO [2024-01-01T12:01:55.273Z]: Creating migrate controller
+INFO [2024-01-01T12:01:55.273Z]: Initializing migrate controller
+INFO [2024-01-01T12:01:55.273Z]: Creating settings controller
+INFO [2024-01-01T12:01:55.273Z]: Initializing settings controller
+INFO [2024-01-01T12:01:55.274Z]: Creating navigation controller
+INFO [2024-01-01T12:01:55.274Z]: Initializing navigation controller
+INFO [2024-01-01T12:01:55.274Z]: Registering auth service with auth controller
+INFO [2024-01-01T12:01:55.274Z]: Calculating navigation
+INFO [2024-01-01T12:01:55.353Z]: Navigation
+INFO [2024-01-01T12:01:55.354Z]: {"page":"/initial-error"}
+ERROR [2024-01-01T12:01:55.368Z]: Offset is outside the bounds of the DataView
+INFO [2024-01-02T09:50:28.199Z]: Preparing to initialize extension
+INFO [2024-01-02T09:50:29.204Z]: Registering flag observer
+INFO [2024-01-02T09:50:29.206Z]: Navigating to loading page
+INFO [2024-01-02T09:50:29.206Z]: Navigation
+INFO [2024-01-02T09:50:29.206Z]: {"page":"/loading"}
+INFO [2024-01-02T09:50:29.207Z]: Initializing workspace controller
+INFO [2024-01-02T09:50:29.210Z]: Creating URI handler
+INFO [2024-01-02T09:50:29.210Z]: Getting auth service props
+INFO [2024-01-02T09:50:29.213Z]: Creating auth service
+INFO [2024-01-02T09:50:29.213Z]: Setting network auth service
+INFO [2024-01-02T09:50:29.213Z]: Creating context store
+INFO [2024-01-02T09:50:29.213Z]: Creating engine
+INFO [2024-01-02T09:50:29.213Z]: Creating sql db
+INFO [2024-01-02T09:50:29.482Z]: Creating vector db
+INFO [2024-01-02T09:50:29.484Z]: Creating config manager
+INFO [2024-01-02T09:50:29.508Z]: Get languages
+INFO [2024-01-02T09:50:29.509Z]: Reading ALL files
+INFO [2024-01-02T09:50:29.654Z]: Files: 4
+INFO [2024-01-02T09:50:29.655Z]: Counting languages
+INFO [2024-01-02T09:50:29.656Z]: Sorting languages
+INFO [2024-01-02T09:50:29.657Z]: Get Overview
+INFO [2024-01-02T09:50:29.657Z]: Creating code parser
+INFO [2024-01-02T09:50:29.657Z]: Creating code index
+INFO [2024-01-02T09:50:29.661Z]: Creating graphs
+INFO [2024-01-02T09:50:29.661Z]: Creating tagger
+INFO [2024-01-02T09:50:29.661Z]: Creating semantic
+INFO [2024-01-02T09:50:29.661Z]: Creating keyword
+INFO [2024-01-02T09:50:29.662Z]: Creating file search
+INFO [2024-01-02T09:50:29.662Z]: Initializing engine
+INFO [2024-01-02T09:50:30.851Z]: [CodeTagger.init] Initializing
+INFO [2024-01-02T09:50:30.854Z]: Initializing history service
+INFO [2024-01-02T09:50:30.854Z]: Creating project bot props
+INFO [2024-01-02T09:50:30.854Z]: Creating plan service
+INFO [2024-01-02T09:50:30.855Z]: Creating terms service
+INFO [2024-01-02T09:50:30.855Z]: Creating auth controller
+INFO [2024-01-02T09:50:30.855Z]: Initializing auth controller
+INFO [2024-01-02T09:50:30.857Z]: Checking auth
+INFO [2024-01-02T09:50:31.945Z]: Set User: lFKxFCOOWmSxo1pG6GIRjgGM9HK2
+INFO [2024-01-02T09:50:31.982Z]: Creating plan controller
+INFO [2024-01-02T09:50:31.983Z]: Initializing plan controller
+INFO [2024-01-02T09:50:32.760Z]: Creating status controller
+INFO [2024-01-02T09:50:32.761Z]: Creating chat bot
+INFO [2024-01-02T09:50:32.765Z]: Creating git service
+INFO [2024-01-02T09:50:32.766Z]: Creating user context
+INFO [2024-01-02T09:50:32.766Z]: Creating search controller
+INFO [2024-01-02T09:50:32.768Z]: Initializing search controller
+INFO [2024-01-02T09:50:32.783Z]: Creating index controller
+INFO [2024-01-02T09:50:32.784Z]: Initializing index controller
+INFO [2024-01-02T09:50:32.784Z]: Creating migrate controller
+INFO [2024-01-02T09:50:32.785Z]: Initializing migrate controller
+INFO [2024-01-02T09:50:32.785Z]: Creating settings controller
+INFO [2024-01-02T09:50:32.786Z]: Initializing settings controller
+INFO [2024-01-02T09:50:32.787Z]: Creating navigation controller
+INFO [2024-01-02T09:50:32.788Z]: Initializing navigation controller
+INFO [2024-01-02T09:50:32.788Z]: Registering auth service with auth controller
+INFO [2024-01-02T09:50:32.788Z]: Calculating navigation
+INFO [2024-01-02T09:50:32.917Z]: Navigation
+INFO [2024-01-02T09:50:32.919Z]: {"page":"/initial-error"}
+ERROR [2024-01-02T09:50:32.944Z]: Offset is outside the bounds of the DataView
