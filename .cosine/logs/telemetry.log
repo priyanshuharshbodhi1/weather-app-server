@@ -481,3 +481,568 @@ INFO [2024-01-02T09:50:32.788Z]: Calculating navigation
 INFO [2024-01-02T09:50:32.917Z]: Navigation
 INFO [2024-01-02T09:50:32.919Z]: {"page":"/initial-error"}
 ERROR [2024-01-02T09:50:32.944Z]: Offset is outside the bounds of the DataView
+INFO [2024-01-02T11:26:53.226Z]: Preparing to initialize extension
+INFO [2024-01-02T11:26:54.237Z]: Registering flag observer
+INFO [2024-01-02T11:26:54.239Z]: Navigating to loading page
+INFO [2024-01-02T11:26:54.240Z]: Navigation
+INFO [2024-01-02T11:26:54.240Z]: {"page":"/loading"}
+INFO [2024-01-02T11:26:54.241Z]: Initializing workspace controller
+INFO [2024-01-02T11:26:54.260Z]: Creating URI handler
+INFO [2024-01-02T11:26:54.260Z]: Getting auth service props
+INFO [2024-01-02T11:26:54.264Z]: Creating auth service
+INFO [2024-01-02T11:26:54.265Z]: Setting network auth service
+INFO [2024-01-02T11:26:54.265Z]: Creating context store
+INFO [2024-01-02T11:26:54.265Z]: Creating engine
+INFO [2024-01-02T11:26:54.265Z]: Creating sql db
+INFO [2024-01-02T11:26:54.627Z]: Creating vector db
+INFO [2024-01-02T11:26:54.628Z]: Creating config manager
+INFO [2024-01-02T11:26:54.637Z]: Get languages
+INFO [2024-01-02T11:26:54.638Z]: Reading ALL files
+INFO [2024-01-02T11:26:54.736Z]: Files: 5
+INFO [2024-01-02T11:26:54.737Z]: Counting languages
+INFO [2024-01-02T11:26:54.738Z]: Sorting languages
+INFO [2024-01-02T11:26:54.738Z]: Get Overview
+INFO [2024-01-02T11:26:54.739Z]: Creating code parser
+INFO [2024-01-02T11:26:54.739Z]: Creating code index
+INFO [2024-01-02T11:26:54.740Z]: Creating graphs
+INFO [2024-01-02T11:26:54.740Z]: Creating tagger
+INFO [2024-01-02T11:26:54.741Z]: Creating semantic
+INFO [2024-01-02T11:26:54.741Z]: Creating keyword
+INFO [2024-01-02T11:26:54.741Z]: Creating file search
+INFO [2024-01-02T11:26:54.742Z]: Initializing engine
+INFO [2024-01-02T11:26:54.798Z]: [CodeTagger.init] Initializing
+INFO [2024-01-02T11:26:54.802Z]: Initializing history service
+INFO [2024-01-02T11:26:54.802Z]: Creating project bot props
+INFO [2024-01-02T11:26:54.802Z]: Creating plan service
+INFO [2024-01-02T11:26:54.803Z]: Creating terms service
+INFO [2024-01-02T11:26:54.803Z]: Creating auth controller
+INFO [2024-01-02T11:26:54.803Z]: Initializing auth controller
+INFO [2024-01-02T11:26:54.805Z]: Checking auth
+INFO [2024-01-02T11:26:56.515Z]: Set User: lFKxFCOOWmSxo1pG6GIRjgGM9HK2
+INFO [2024-01-02T11:26:56.564Z]: Creating plan controller
+INFO [2024-01-02T11:26:56.565Z]: Initializing plan controller
+INFO [2024-01-02T11:26:58.099Z]: Creating status controller
+INFO [2024-01-02T11:26:58.100Z]: Creating chat bot
+INFO [2024-01-02T11:26:58.105Z]: Creating git service
+INFO [2024-01-02T11:26:58.105Z]: Creating user context
+INFO [2024-01-02T11:26:58.105Z]: Creating search controller
+INFO [2024-01-02T11:26:58.106Z]: Initializing search controller
+INFO [2024-01-02T11:26:58.115Z]: Creating index controller
+INFO [2024-01-02T11:26:58.116Z]: Initializing index controller
+INFO [2024-01-02T11:26:58.116Z]: Creating migrate controller
+INFO [2024-01-02T11:26:58.116Z]: Initializing migrate controller
+INFO [2024-01-02T11:26:58.116Z]: Creating settings controller
+INFO [2024-01-02T11:26:58.117Z]: Initializing settings controller
+INFO [2024-01-02T11:26:58.117Z]: Creating navigation controller
+INFO [2024-01-02T11:26:58.117Z]: Initializing navigation controller
+INFO [2024-01-02T11:26:58.117Z]: Registering auth service with auth controller
+INFO [2024-01-02T11:26:58.118Z]: Calculating navigation
+INFO [2024-01-02T11:26:58.177Z]: Navigation
+INFO [2024-01-02T11:26:58.178Z]: {"page":"/initialize/project"}
+INFO [2024-01-02T11:26:58.178Z]: Fully initialized!
+INFO [2024-01-02T11:26:58.182Z]: extension_initialized
+INFO [2024-01-02T11:26:58.182Z]: {"timeToInit":4955}
+INFO [2024-01-02T11:26:58.240Z]: Reading ALL files
+INFO [2024-01-02T11:26:58.313Z]: Files: 5
+INFO [2024-01-02T11:26:58.313Z]: Counting languages
+INFO [2024-01-02T11:26:58.313Z]: Sorting languages
+INFO [2024-01-02T11:27:03.050Z]: project_languages
+INFO [2024-01-02T11:27:03.050Z]: {"languages":["JavaScript"]}
+INFO [2024-01-02T11:27:03.090Z]: Navigation
+INFO [2024-01-02T11:27:03.091Z]: {"page":"/initialize/ignore"}
+INFO [2024-01-02T11:27:03.131Z]: Reading ALL files
+INFO [2024-01-02T11:27:03.201Z]: Files: 5
+INFO [2024-01-02T11:27:03.202Z]: Counting languages
+INFO [2024-01-02T11:27:03.202Z]: Sorting languages
+INFO [2024-01-02T11:27:05.423Z]: Navigation
+INFO [2024-01-02T11:27:05.424Z]: {"page":"/initialize/progress"}
+INFO [2024-01-02T11:27:05.570Z]: Found 2 files
+INFO [2024-01-02T11:27:05.586Z]: project_initialize_start
+INFO [2024-01-02T11:27:05.586Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-02T11:27:07.335Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:27:07.337Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:27:07.337Z]: {"added":9,"deleted":0}
+INFO [2024-01-02T11:27:08.061Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:27:08.061Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:27:08.061Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:27:08.192Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:27:08.193Z]: {"language":"JavaScript","percent":50,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:27:08.204Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:27:08.204Z]: {"language":"JavaScript","percent":100,"file":"server.js"}
+INFO [2024-01-02T11:27:08.307Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:27:08.308Z]: {"language":"JavaScript","percent":64.38356164383562,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:27:08.335Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:27:08.336Z]: {"language":"JavaScript","percent":100,"file":"server.js"}
+INFO [2024-01-02T11:27:08.337Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:27:08.337Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:27:08.338Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:27:08.338Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:27:08.338Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:27:09.973Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:27:09.973Z]: {"length":9}
+INFO [2024-01-02T11:27:09.974Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:27:09.974Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:27:09.975Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:27:09.980Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:27:09.981Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:27:09.981Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:27:09.981Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:27:09.999Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:27:10.006Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:27:10.007Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:27:10.007Z]: {"added":9,"deleted":0}
+INFO [2024-01-02T11:27:10.007Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:27:10.007Z]: {"embeddingsToDelete":0}
+INFO [2024-01-02T11:27:10.008Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:27:10.008Z]: {"write":9}
+INFO [2024-01-02T11:27:10.144Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:27:10.146Z]: {"resuts":9,"delete":0}
+INFO [2024-01-02T11:27:10.146Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:27:10.146Z]: {"files":{"added":1,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:27:10.361Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:27:10.375Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:27:10.378Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-02T11:27:14.084Z]: Tokens for Overview Summary
+INFO [2024-01-02T11:27:14.085Z]: {"projectName":3,"languages":5,"likelyLibraries":2,"code":0,"nonCode":0,"total":177}
+INFO [2024-01-02T11:27:16.809Z]: [CodeTagger.tagCodebase] Tagging codebase
+INFO [2024-01-02T11:27:23.638Z]: [CodeTagger.save] Saving index to file
+INFO [2024-01-02T11:27:23.777Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:27:31.716Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:27:31.717Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:27:31.717Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:27:31.742Z]: project_initialize_success
+INFO [2024-01-02T11:27:31.742Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"]}
+INFO [2024-01-02T11:46:28.841Z]: question_start
+INFO [2024-01-02T11:46:28.844Z]: {"prompt":"hey can implement functionallity of controllers here"}
+INFO [2024-01-02T11:46:31.341Z]: tool_selected
+INFO [2024-01-02T11:46:31.341Z]: {"tool":"with_user_context"}
+INFO [2024-01-02T11:46:33.270Z]: question_success
+INFO [2024-01-02T11:46:33.270Z]: {"prompt":"hey can implement functionallity of controllers here"}
+INFO [2024-01-02T11:46:55.955Z]: question_start
+INFO [2024-01-02T11:46:55.955Z]: {"prompt":"make controllers for weatherData.js file"}
+INFO [2024-01-02T11:46:57.174Z]: tool_selected
+INFO [2024-01-02T11:46:57.176Z]: {"tool":"with_user_context"}
+INFO [2024-01-02T11:47:03.248Z]: question_success
+INFO [2024-01-02T11:47:03.249Z]: {"prompt":"make controllers for weatherData.js file"}
+INFO [2024-01-02T11:48:53.371Z]: question_start
+INFO [2024-01-02T11:48:53.372Z]: {"prompt":"give me complete code for controllers and import (use it) it in the routes"}
+INFO [2024-01-02T11:48:54.881Z]: tool_selected
+INFO [2024-01-02T11:48:54.881Z]: {"tool":"with_user_context"}
+INFO [2024-01-02T11:49:01.128Z]: question_success
+INFO [2024-01-02T11:49:01.128Z]: {"prompt":"give me complete code for controllers and import (use it) it in the routes"}
+INFO [2024-01-02T11:50:06.715Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:06.716Z]: {}
+INFO [2024-01-02T11:50:07.089Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:50:07.090Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:50:07.090Z]: {"added":0,"deleted":0}
+INFO [2024-01-02T11:50:07.090Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:50:07.091Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:07.091Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:07.091Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:50:07.091Z]: {"length":0}
+INFO [2024-01-02T11:50:07.095Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:50:07.095Z]: {"language":"JavaScript","percent":100,"file":"controllers/weatherData.js"}
+INFO [2024-01-02T11:50:07.096Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:07.096Z]: {"language":"JavaScript","percent":100,"file":"controllers/weatherData.js"}
+INFO [2024-01-02T11:50:07.096Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:07.096Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:50:07.096Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:50:07.096Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:07.096Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:50:07.097Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:50:07.097Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:50:07.097Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:50:07.097Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:50:07.097Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:50:07.097Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:50:07.097Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:07.121Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:50:07.122Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:50:07.122Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:50:07.122Z]: {"added":0,"deleted":0}
+INFO [2024-01-02T11:50:07.122Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:50:07.122Z]: {"embeddingsToDelete":0}
+INFO [2024-01-02T11:50:07.122Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:50:07.122Z]: {"write":0}
+INFO [2024-01-02T11:50:07.190Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:50:07.190Z]: {"resuts":0,"delete":0}
+INFO [2024-01-02T11:50:07.191Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:50:07.191Z]: {"files":{"added":1,"changed":0,"deleted":0}}
+INFO [2024-01-02T11:50:07.324Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:50:07.348Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:50:07.709Z]: [CodeTagger.tagCodebase] Tagging codebase
+INFO [2024-01-02T11:50:09.971Z]: [CodeTagger.save] Saving index to file
+INFO [2024-01-02T11:50:10.059Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:50:10.061Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:50:10.061Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:50:10.061Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:50:10.077Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:10.078Z]: {}
+INFO [2024-01-02T11:50:24.729Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:24.730Z]: {}
+INFO [2024-01-02T11:50:24.900Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:50:24.901Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:50:24.901Z]: {"added":5,"deleted":0}
+INFO [2024-01-02T11:50:24.906Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:50:24.907Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:24.907Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:25.016Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:50:25.020Z]: {"language":"JavaScript","percent":100,"file":"controllers/weatherData.js"}
+INFO [2024-01-02T11:50:25.021Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:25.021Z]: {"language":"JavaScript","percent":100,"file":"controllers/weatherData.js"}
+INFO [2024-01-02T11:50:25.021Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:25.021Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:50:25.022Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:50:25.022Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:25.022Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:50:26.515Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:50:26.516Z]: {"length":5}
+INFO [2024-01-02T11:50:26.516Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:50:26.516Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:50:26.516Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:50:26.517Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:50:26.517Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:50:26.518Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:50:26.518Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:26.539Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:50:26.542Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:50:26.542Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:50:26.542Z]: {"added":5,"deleted":0}
+INFO [2024-01-02T11:50:26.542Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:50:26.542Z]: {"embeddingsToDelete":0}
+INFO [2024-01-02T11:50:26.542Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:50:26.542Z]: {"write":5}
+INFO [2024-01-02T11:50:26.688Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:50:26.707Z]: {"resuts":5,"delete":0}
+INFO [2024-01-02T11:50:26.707Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:50:26.707Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:50:27.087Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:50:27.120Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:50:27.209Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:50:27.210Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:50:27.210Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:50:27.210Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:50:27.218Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:27.218Z]: {}
+INFO [2024-01-02T11:50:51.106Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:51.106Z]: {}
+INFO [2024-01-02T11:50:51.224Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:50:51.225Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:50:51.225Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:50:51.233Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:50:51.234Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:51.234Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:51.281Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:50:51.282Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:50:51.364Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:51.365Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:50:51.365Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:50:51.365Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:50:51.366Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:50:51.366Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:51.366Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:50:52.168Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:50:52.169Z]: {"length":1}
+INFO [2024-01-02T11:50:52.169Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:50:52.169Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:50:52.169Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:50:52.172Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:50:52.172Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:50:52.172Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:50:52.172Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:50:52.196Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:50:52.203Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:50:52.203Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:50:52.203Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:50:52.204Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:50:52.204Z]: {"embeddingsToDelete":1}
+INFO [2024-01-02T11:50:52.204Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:50:52.204Z]: {"write":1}
+INFO [2024-01-02T11:50:52.456Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:50:52.487Z]: {"resuts":1,"delete":1}
+INFO [2024-01-02T11:50:52.487Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:50:52.487Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:50:52.731Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:50:52.738Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:50:52.842Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:50:52.843Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:50:52.843Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:50:52.843Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:50:52.859Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:52.860Z]: {}
+INFO [2024-01-02T11:51:59.302Z]: project_reinitialize_start
+INFO [2024-01-02T11:51:59.302Z]: {}
+INFO [2024-01-02T11:51:59.635Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:51:59.636Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:51:59.636Z]: {"added":3,"deleted":4}
+INFO [2024-01-02T11:51:59.646Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:51:59.646Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:51:59.646Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:51:59.675Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:51:59.678Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:51:59.707Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:51:59.707Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:51:59.707Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:51:59.707Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:51:59.707Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:51:59.707Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:51:59.708Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:52:01.158Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:52:01.161Z]: {"length":3}
+INFO [2024-01-02T11:52:01.161Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:52:01.161Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:52:01.161Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:52:01.164Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:52:01.165Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:52:01.165Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:52:01.165Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:52:01.182Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:52:01.185Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:52:01.186Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:52:01.186Z]: {"added":3,"deleted":4}
+INFO [2024-01-02T11:52:01.186Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:52:01.186Z]: {"embeddingsToDelete":4}
+INFO [2024-01-02T11:52:01.186Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:52:01.186Z]: {"write":3}
+INFO [2024-01-02T11:52:01.287Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:52:01.289Z]: {"resuts":3,"delete":4}
+INFO [2024-01-02T11:52:01.289Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:52:01.289Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:52:01.309Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:52:01.336Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:52:01.682Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:52:01.683Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:52:01.683Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:52:01.683Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:52:01.694Z]: project_reinitialize_success
+INFO [2024-01-02T11:52:01.694Z]: {}
+INFO [2024-01-02T11:56:03.116Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:03.119Z]: {}
+INFO [2024-01-02T11:56:03.298Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:56:03.299Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:56:03.299Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:03.304Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:56:03.304Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:03.304Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:03.340Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:56:03.340Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:03.422Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:03.422Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:03.422Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:03.422Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:56:03.422Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:56:03.422Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:03.422Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:56:04.363Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:56:04.364Z]: {"length":1}
+INFO [2024-01-02T11:56:04.364Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:56:04.364Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:56:04.364Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:56:04.366Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:56:04.366Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:56:04.366Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:56:04.366Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:04.384Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:56:04.385Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:56:04.385Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:56:04.385Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:04.385Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:56:04.385Z]: {"embeddingsToDelete":1}
+INFO [2024-01-02T11:56:04.385Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:56:04.385Z]: {"write":1}
+INFO [2024-01-02T11:56:04.458Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:56:04.458Z]: {"resuts":1,"delete":1}
+INFO [2024-01-02T11:56:04.458Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:56:04.458Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:56:04.519Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:56:04.638Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:56:04.810Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:56:04.811Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:56:04.811Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:56:04.811Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:56:04.831Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:04.831Z]: {}
+INFO [2024-01-02T11:56:23.619Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:23.620Z]: {}
+INFO [2024-01-02T11:56:23.740Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:56:23.741Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:56:23.741Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:23.748Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:56:23.748Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:23.748Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:23.771Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:56:23.772Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:23.865Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:23.867Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:23.868Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:23.868Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:56:23.869Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:56:23.869Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:23.869Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:56:24.773Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:56:24.774Z]: {"length":1}
+INFO [2024-01-02T11:56:24.775Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:56:24.775Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:56:24.775Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:56:24.778Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:56:24.778Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:56:24.778Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:56:24.778Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:24.804Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:56:24.808Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:56:24.809Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:56:24.809Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:24.809Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:56:24.809Z]: {"embeddingsToDelete":1}
+INFO [2024-01-02T11:56:24.810Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:56:24.810Z]: {"write":1}
+INFO [2024-01-02T11:56:25.524Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:56:25.524Z]: {"resuts":1,"delete":1}
+INFO [2024-01-02T11:56:25.524Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:56:25.524Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:56:25.532Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:56:25.538Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:56:25.626Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:56:25.627Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:56:25.627Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:56:25.627Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:56:25.636Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:25.636Z]: {}
+INFO [2024-01-02T11:56:50.073Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:50.074Z]: {}
+INFO [2024-01-02T11:56:50.231Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:56:50.233Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:56:50.233Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:50.251Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:56:50.251Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:50.251Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:50.301Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:56:50.301Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:50.338Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:50.338Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:56:50.339Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:56:50.339Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:56:50.339Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:56:50.339Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:50.339Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:56:51.159Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:56:51.160Z]: {"length":1}
+INFO [2024-01-02T11:56:51.160Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:56:51.160Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:56:51.161Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:56:51.163Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:56:51.163Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:56:51.163Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:56:51.163Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:56:51.189Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:56:51.196Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:56:51.196Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:56:51.196Z]: {"added":1,"deleted":1}
+INFO [2024-01-02T11:56:51.196Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:56:51.196Z]: {"embeddingsToDelete":1}
+INFO [2024-01-02T11:56:51.197Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:56:51.197Z]: {"write":1}
+INFO [2024-01-02T11:56:51.324Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:56:51.327Z]: {"resuts":1,"delete":1}
+INFO [2024-01-02T11:56:51.327Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:56:51.327Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:56:51.340Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:56:51.362Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:56:51.704Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:56:51.706Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:56:51.706Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:56:51.706Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:56:51.738Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:51.739Z]: {}
+INFO [2024-01-02T11:57:24.855Z]: project_reinitialize_start
+INFO [2024-01-02T11:57:24.856Z]: {}
+INFO [2024-01-02T11:57:24.989Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:57:24.990Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:57:24.990Z]: {"added":2,"deleted":2}
+INFO [2024-01-02T11:57:25.002Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:57:25.002Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:57:25.002Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:57:25.076Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:57:25.077Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:57:25.199Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:57:25.203Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:57:25.204Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:57:25.204Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:57:25.204Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:57:25.204Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:57:25.204Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:57:26.407Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:57:26.408Z]: {"length":2}
+INFO [2024-01-02T11:57:26.408Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:57:26.408Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:57:26.408Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:57:26.411Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:57:26.411Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:57:26.411Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:57:26.411Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:57:26.434Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:57:26.437Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:57:26.437Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:57:26.437Z]: {"added":2,"deleted":2}
+INFO [2024-01-02T11:57:26.437Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:57:26.437Z]: {"embeddingsToDelete":2}
+INFO [2024-01-02T11:57:26.437Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:57:26.437Z]: {"write":2}
+INFO [2024-01-02T11:57:26.540Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:57:26.542Z]: {"resuts":2,"delete":2}
+INFO [2024-01-02T11:57:26.542Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:57:26.542Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:57:26.560Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:57:26.788Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:57:27.069Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:57:27.071Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:57:27.072Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:57:27.072Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:57:27.086Z]: project_reinitialize_success
+INFO [2024-01-02T11:57:27.087Z]: {}
+INFO [2024-01-02T11:58:18.672Z]: project_reinitialize_start
+INFO [2024-01-02T11:58:18.675Z]: {}
+INFO [2024-01-02T11:58:18.811Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-02T11:58:18.811Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-02T11:58:18.811Z]: {"added":1,"deleted":3}
+INFO [2024-01-02T11:58:18.815Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-02T11:58:18.816Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:58:18.816Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:58:18.861Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-02T11:58:18.861Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:58:18.904Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:58:18.906Z]: {"language":"JavaScript","percent":100,"file":"routes/weatherData.js"}
+INFO [2024-01-02T11:58:18.906Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-02T11:58:18.906Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-02T11:58:18.906Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-02T11:58:18.906Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:58:18.906Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-02T11:58:19.787Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-02T11:58:19.788Z]: {"length":1}
+INFO [2024-01-02T11:58:19.788Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-02T11:58:19.788Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-02T11:58:19.788Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-02T11:58:19.790Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-02T11:58:19.790Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-02T11:58:19.790Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-02T11:58:19.790Z]: {"language":"JavaScript"}
+INFO [2024-01-02T11:58:19.808Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-02T11:58:19.811Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-02T11:58:19.811Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-02T11:58:19.811Z]: {"added":1,"deleted":3}
+INFO [2024-01-02T11:58:19.811Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-02T11:58:19.811Z]: {"embeddingsToDelete":3}
+INFO [2024-01-02T11:58:19.811Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-02T11:58:19.811Z]: {"write":1}
+INFO [2024-01-02T11:58:19.905Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-02T11:58:19.907Z]: {"resuts":1,"delete":3}
+INFO [2024-01-02T11:58:19.908Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-02T11:58:19.908Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-02T11:58:19.926Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-02T11:58:19.956Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-02T11:58:20.408Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-02T11:58:20.410Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-02T11:58:20.410Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-02T11:58:20.410Z]: {"adding":0,"deleting":0}
+INFO [2024-01-02T11:58:20.437Z]: project_reinitialize_success
+INFO [2024-01-02T11:58:20.438Z]: {}

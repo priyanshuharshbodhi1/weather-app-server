@@ -39,3 +39,67 @@ INFO [2024-01-01T12:01:54.545Z]: Set User: priyanshuqpwp@gmail.com
 INFO [2024-01-01T12:01:54.546Z]: {"Telemetry":true}
 INFO [2024-01-02T09:50:31.951Z]: Set User: priyanshuqpwp@gmail.com
 INFO [2024-01-02T09:50:31.952Z]: {"Telemetry":true}
+INFO [2024-01-02T11:26:56.523Z]: Set User: priyanshuqpwp@gmail.com
+INFO [2024-01-02T11:26:56.524Z]: {"Telemetry":true}
+INFO [2024-01-02T11:26:58.181Z]: extension_initialized
+INFO [2024-01-02T11:26:58.181Z]: {"timeToInit":4955,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:27:03.048Z]: project_languages
+INFO [2024-01-02T11:27:03.049Z]: {"languages":["JavaScript"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:27:05.580Z]: project_initialize_start
+INFO [2024-01-02T11:27:05.581Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:27:31.740Z]: project_initialize_success
+INFO [2024-01-02T11:27:31.741Z]: {"name":"weather-app-server","languages":["JSON","Markdown","JavaScript"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.cab","*.lcov","*.lnk","*.log","*.msi","*.msix","*.msm","*.msp","*.pid","*.pid.lock","*.seed","*.stackdump","*.tgz","*.tsbuildinfo","*.vsix","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".cache",".cache/",".changeset",".com.apple.timemachine.donotpresent",".cosine",".devcontainer",".directory",".docusaurus",".dynamodb/",".env",".env.development.local",".env.local",".env.production.local",".env.test.local",".eslintcache",".expo",".expo-settings",".expo-shared",".fseventsd",".fuse_hidden*",".fusebox/",".git",".github",".gitsecret",".grunt",".history/",".husky",".idea",".lock-wscript",".next",".nfs*",".node_repl_history",".npm",".nuxt",".nyc_output",".parcel-cache",".pnp",".pnp.*",".pnp.js",".pnpm-debug.log*",".rpt2_cache/",".rts2_cache_cjs/",".rts2_cache_es/",".rts2_cache_umd/",".serverless/",".storybook",".stylelintcache",".temp",".tern-port",".turbo",".versionbot",".vs",".vscode-test",".vscode/*",".vuepress/dist",".yarn",".yarn-integrity",".yarn/build-state.yml",".yarn/cache",".yarn/install-state.gz",".yarn/unplugged",".yarnrc","Icon","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","_generated","bower_components","build","build/Release","coverage","dist","ehthumbs.db","ehthumbs_vista.db","jspm_packages/","lerna-debug.log*","lib-cov","logs","node_modules/","npm-debug.log*","out","package-lock.json","pids","report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json","web_modules/","yarn-debug.log*","yarn-error.log*","yarn.lock"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:46:28.837Z]: question_start
+INFO [2024-01-02T11:46:28.838Z]: {"prompt":"hey can implement functionallity of controllers here","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:46:31.339Z]: tool_selected
+INFO [2024-01-02T11:46:31.339Z]: {"tool":"with_user_context","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:46:33.268Z]: question_success
+INFO [2024-01-02T11:46:33.268Z]: {"prompt":"hey can implement functionallity of controllers here","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:46:55.953Z]: question_start
+INFO [2024-01-02T11:46:55.953Z]: {"prompt":"make controllers for weatherData.js file","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:46:57.170Z]: tool_selected
+INFO [2024-01-02T11:46:57.171Z]: {"tool":"with_user_context","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:47:03.246Z]: question_success
+INFO [2024-01-02T11:47:03.247Z]: {"prompt":"make controllers for weatherData.js file","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:48:53.362Z]: question_start
+INFO [2024-01-02T11:48:53.367Z]: {"prompt":"give me complete code for controllers and import (use it) it in the routes","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:48:54.879Z]: tool_selected
+INFO [2024-01-02T11:48:54.880Z]: {"tool":"with_user_context","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:49:01.126Z]: question_success
+INFO [2024-01-02T11:49:01.126Z]: {"prompt":"give me complete code for controllers and import (use it) it in the routes","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:06.712Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:06.713Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:10.076Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:10.077Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:24.728Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:24.729Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:27.217Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:27.218Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:51.103Z]: project_reinitialize_start
+INFO [2024-01-02T11:50:51.103Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:50:52.858Z]: project_reinitialize_success
+INFO [2024-01-02T11:50:52.859Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:51:59.300Z]: project_reinitialize_start
+INFO [2024-01-02T11:51:59.301Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:52:01.693Z]: project_reinitialize_success
+INFO [2024-01-02T11:52:01.693Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:03.113Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:03.114Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:04.830Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:04.830Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:23.618Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:23.618Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:25.635Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:25.635Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:50.072Z]: project_reinitialize_start
+INFO [2024-01-02T11:56:50.072Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:56:51.737Z]: project_reinitialize_success
+INFO [2024-01-02T11:56:51.737Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:57:24.854Z]: project_reinitialize_start
+INFO [2024-01-02T11:57:24.855Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:57:27.085Z]: project_reinitialize_success
+INFO [2024-01-02T11:57:27.085Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:58:18.669Z]: project_reinitialize_start
+INFO [2024-01-02T11:58:18.670Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-02T11:58:20.434Z]: project_reinitialize_success
+INFO [2024-01-02T11:58:20.435Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
