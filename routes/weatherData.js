@@ -8,6 +8,8 @@ router.post("/", async (req, res) => {
   try {
     const { longitude, latitude } = req.body;
 
+    console.log(longitude)
+
     // Call OpenCage Geocoding API for reverse geocoding
     const reverseGeocodingResponse = await axios.get(
       `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=ff7db3cbd93d4341ae414bf570fdd4f3`

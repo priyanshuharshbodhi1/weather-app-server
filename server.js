@@ -8,13 +8,13 @@ const app = express();
 const port = 4000;
 app.use(cors());
 
+// Middleware to parse JSON requests
+app.use(express.json());
+
 // health check
 app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
-
-// Middleware to parse JSON requests
-app.use(express.json());
 
 // Use the weather route
 app.use("/api/weather", weatherRoute);
